@@ -13,6 +13,8 @@
             echo do_shortcode('[mwform_formkey key="13"]');
         elseif (strstr($url, 'sapporo')) :
             echo do_shortcode('[mwform_formkey key="87"]');
+        elseif (strstr($url, 'tokai')) :
+            echo do_shortcode('[mwform_formkey key="243"]');
         else :
             echo do_shortcode('[mwform_formkey key="14"]');
         endif;
