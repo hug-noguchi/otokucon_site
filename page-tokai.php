@@ -1,180 +1,5 @@
 <?php get_header(); ?>
 
-<style>
-  .tokai .p-mainview_box {
-    position: relative;
-  }
-  .tokai .campaign_date_tokai p {
-    font-family: "游明朝体";
-    font-size: 26px;
-    color: #4d4d4d;
-    position: absolute;
-    top: 65.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-  }
-  .tokai .campaign_date_tokai .date {
-    font-size: 50px;
-    padding-left: 20px;
-  }
-  .tokai .campaign_date_tokai .date_slash {
-    font-family: inherit;
-  }
-  .tokai .campaign_date_tokai .day_circle {
-    font-size: 16px;
-    border: 1px solid;
-    border-radius: 50%;
-    padding: 3px;
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    line-height: 21px;
-    text-align: center;
-    box-sizing: border-box;
-  }
-  .tokai .campaign_date_tokai .until {
-    font-family: "游明朝体+36ポかな";
-    font-size: 20px;
-  }
-  @media (max-width: 480px) {
-    .tokai .campaign_date_tokai p {
-      font-size: 12px;
-      top: 63.5%;
-      width: 100%;
-      justify-content: center;
-    }
-    .tokai .campaign_date_tokai .date {
-      font-size: 27px;
-      padding-left: 10px;
-    }
-    .tokai .campaign_date_tokai .day_circle {
-      font-size: 9px;
-      padding: 2px;
-      width: 18px;
-      height: 18px;
-      line-height: 14px;
-    }
-    .tokai .campaign_date_tokai .until {
-      font-size: 10px;
-    }
-  }
-  @media screen and (max-width: 767px) {
-    .tokai .p-mainview__btn__box {
-      bottom: 18%;
-      width: 96%;
-    }
-    .tokai .p-mainview__btn__box img {
-      padding-right: 18px;
-      padding-left: 18px;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    .tokai .p-mainview__btn__box {
-      bottom: 16%;
-    }
-  }
-  @media screen and (max-width: 375px) {
-   .tokai .p-mainview__btn__box {
-      bottom: 18%;
-    }
-  }
-  .tokai .btn_1minute {
-    bottom: 14.5%;
-  }
-  @media screen and (max-width: 480px) {
-    .tokai .btn_1minute {
-      bottom: 18%;
-    }
-  }
-  .tokai .btn_1minute_02 {
-    max-width: 640px;
-    width: 100%;
-    margin: 40px auto 0;
-  }
-  /* FV CTAボタン */
-  .tokai .p-mainview {
-    position: relative;
-  }
-  .tokai .p-mainview__btn__box {
-    position: absolute;
-    bottom: 16%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    max-width: 640px;
-    width: 100%;
-  }
-  @keyframes bounce {
-    0% {
-      transform: scale(1);
-      -webkit-transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-      -webkit-transform: scale(1.1);
-    }
-  }
-  @keyframes shiny {
-    0% {
-      -webkit-transform: scale(0) rotate(45deg);
-      opacity: 0;
-    }
-    80% {
-      -webkit-transform: scale(0) rotate(45deg);
-      opacity: 0.5;
-    }
-    81% {
-      -webkit-transform: scale(4) rotate(45deg);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: scale(50) rotate(45deg);
-      opacity: 0;
-    }
-  }
-  .shiny-btn {
-    overflow: hidden;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    animation: bounce 2s ease-in-out forwards;
-    animation-iteration-count: infinite;
-  }
-  .shiny-btn::after {
-    content: "";
-    position: absolute;
-    top: -10%;
-    left: -20%;
-    width: 40px;
-    height: 100%;
-    transform: scale(2) rotate(20deg);
-    background-image: linear-gradient(100deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.5) 100%, rgba(255, 255, 255, 0) 0%);
-    background: #fff !important;
-    animation-name: shiny;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    transition: unset;
-    transform-origin: unset;
-  }
-  .p-target_fukidashi_sp {
-    width: 140px;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    z-index: 999;
-  }
-</style>
-
 <?php //otokukon.site 東海婚 ?>
 <?php get_template_part('template/target_tokai'); ?>
 <main class="tokai">
@@ -186,34 +11,27 @@
           </picture>
           <div class="campaign_date_tokai">
             <p>
-              キャンペーン期間
-              <?php
-              // 日本時間で現在日時
-              $tz  = new DateTimeZone('Asia/Tokyo');
-              $now = new DateTime('now', $tz);
+            キャンペーン期間
+            <?php
+            // 日本時間で現在日時
+            $tz  = new DateTimeZone('Asia/Tokyo');
+            $now = new DateTime('now', $tz);
 
-              // 今月の15日 23:59:59
-              $mid = new DateTime('first day of this month', $tz);
-              $mid->setDate((int)$now->format('Y'), (int)$now->format('n'), 15)->setTime(23,59,59);
+            // 今月の月末 23:59:59 を締切に設定
+            $end = new DateTime('last day of this month', $tz);
+            $end->setTime(23,59,59);
 
-              // 今月の月末 23:59:59
-              $end = new DateTime('last day of this month', $tz);
-              $end->setTime(23,59,59);
-
-              // 表示する締切（前半＝15日／後半＝月末）
-              $deadline = ($now <= $mid) ? $mid : $end;
-
-              // 月日と曜日
-              $month = $deadline->format('n');
-              $day   = $deadline->format('j');
-              $week  = ['日','月','火','水','木','金','土'];
-              $w     = $week[(int)$deadline->format('w')];
-              ?>
-              <span class="date">
+            // 月日と曜日
+            $month = $end->format('n');
+            $day   = $end->format('j');
+            $week  = ['日','月','火','水','木','金','土'];
+            $w     = $week[(int)$end->format('w')];
+            ?>
+            <span class="date">
                 <?php echo $month; ?><span class="date_slash">/</span><?php echo $day; ?>
-              </span>
-              <span class="day_circle"><?php echo $w; ?></span>
-              <span class="until">まで</span>
+            </span>
+            <span class="day_circle"><?php echo $w; ?></span>
+            <span class="until">まで</span>
             </p>
           </div>
         </div>
@@ -791,7 +609,7 @@
                     <div class="p-application-card__body">
                         <h3 class="p-application-card__title">プレゼント内容</h3>
                         <p class="p-application-card__toptext">
-                            抽選で各式場にて20組様に結婚式をプレゼント！
+                            抽選で各式場にて5組様に結婚式をプレゼント！
                         </p>
                     </div>
                 </div>
