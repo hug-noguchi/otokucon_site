@@ -255,16 +255,16 @@ function autoback_my_mail_kyusyu($Mail_raw, $values, $Data)
 {
 	if ($Data->get('radio-name') == 'ベルクラシック小倉') {
 		$Mail_raw->to = 'miura@bellco.co.jp,okino@bellclassic.co.jp,kokura@bellclassic.co.jp';
-		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp';
+		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp';
 	} else if ($Data->get('radio-name') == 'マリアージュ下関') {
 		$Mail_raw->to = 'miura@bellco.co.jp,aida@bellclassic.co.jp,shimonoseki@bellclassic.co.jp';
-		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp';
+		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp';
 	} else if ($Data->get('radio-name') == 'アール・ベル・アンジェ山口') {
 		$Mail_raw->to = 'miura@bellco.co.jp,hirai@bellclassic.co.jp,yamaguchi@bellclassic.co.jp';
-		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp';
+		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp';
 	} else if ($Data->get('radio-name') == 'ベルクラシック防府') {
 		$Mail_raw->to = 'miura@bellco.co.jp,okamura@bellclassic.co.jp,hofu@bellclassic.co.jp';
-		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp';
+		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp';
 	}
 	return $Mail_raw;
 }
@@ -276,16 +276,16 @@ function autoback_my_mail_hokkaido($Mail_raw, $values, $Data)
 {
 	if ($Data->get('radio-name') == 'アール・ベル・アンジェ室蘭') {
 		$Mail_raw->to = 'miura@bellco.co.jp,maeda@bellclassic.co.jp,muroran@bellclassic.co.jp';
-		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp';
+		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp';
 	} else if ($Data->get('radio-name') == 'ベルクラシック函館') {
 		$Mail_raw->to = 'miura@bellco.co.jp,sato@bellclassic.co.jp,hakodate@bellclassic.co.jp';
-		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp';
+		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp';
 	} else if ($Data->get('radio-name') == 'アールベルアンジェ苫小牧') {
 		$Mail_raw->to = 'miura@bellco.co.jp,hatanaka@bellclassic.co.jp,whitepark@tea.ocn.ne.jp,tomakomai@bellclassic.co.jp';
-		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp';
+		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp';
 	} else if ($Data->get('radio-name') == 'アールベルアンジェ札幌') {
 		$Mail_raw->to = 'miura@bellco.co.jp,mogi@bellclassic.co.jp';
-		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp';
+		$Mail_raw->cc = 'ebisawa@hershe.co.jp,mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp';
 	}
 	return $Mail_raw;
 }
@@ -304,13 +304,13 @@ function autoback_my_mail_tokai($Mail_raw, $values, $Data)
 {
 	if ($Data->get('radio-name') == 'ガーデンテラス東山') {
 		$Mail_raw->to = 'miura@bellco.co.jp,hirotaka-sakuragi@bellclassic.co.jp,garden-terrace@gt-higashiyama.jp';
-		$Mail_raw->cc = 'mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ebisawa@hershe.co.jp';
+		$Mail_raw->cc = 'mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp,ebisawa@hershe.co.jp';
 	} else if ($Data->get('radio-name') == 'アールベルアンジェ四日市') {
 		$Mail_raw->to = 'miura@bellco.co.jp,ueda@bellclassic.co.jp,yokkaichi@bellclassic.co.jp';
-		$Mail_raw->cc = 'mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ebisawa@hershe.co.jp';
+		$Mail_raw->cc = 'mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp,ebisawa@hershe.co.jp';
 	} else if ($Data->get('radio-name') == 'アールベルアンジェ三重') {
 		$Mail_raw->to = 'miura@bellco.co.jp,sugaya@bellclassic.co.jp,mie@bellclassic.co.jp';
-		$Mail_raw->cc = 'mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ebisawa@hershe.co.jp';
+		$Mail_raw->cc = 'mayu@hershe.co.jp,higa_sa@hershe.jp,morito@hershe.co.jp,ito_hi@hershe.jp,ebisawa@hershe.co.jp';
 	}
 	return $Mail_raw;
 }
