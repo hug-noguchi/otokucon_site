@@ -18,7 +18,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mainview_v2.jpg" alt="抽選で20名様に！お得に叶えよう！結婚式プレゼント">
         </picture>
         <div class="p-mainview__copy"><span class="p-mainview__color">挙式をする夢</span><span class="p-mainview__small">を</span><span class="p-mainview__color">叶えたい</span>、<br>すべてのカップルに贈る</div>
-        <div class="p-mainview__text">※30名以上（アールベルアンジェ札幌は40名以上）の披露宴またはパーティーをされる方に限ります。アールベルアンジェ札幌<br class="u-mobile"><span>※披露宴、または、パーティー費用は含まれておりません。</span></div>
+        <div class="p-mainview__text">※30名以上（アールベルアンジェ札幌は40名以上）の披露宴またはパーティーをされる方に限ります。<br class="u-mobile"><span>※披露宴、または、パーティー費用は含まれておりません。</span></div>
     </div>
     <section class="p-special l-special">
         <div class="p-special__inner l-inner">
@@ -125,7 +125,7 @@
                 </div>
             </div>
             <p class="p-special__foot">
-                ※30名以上（アールベルアンジェ札幌は40名以上）の披露宴またはパーティーをされる方に限ります。アールベルアンジェ札幌<br>
+                ※30名以上（アールベルアンジェ札幌は40名以上）の披露宴またはパーティーをされる方に限ります。<br>
                 ※披露宴、または、パーティー費用は含まれておりません。
             </p>
         </div>
