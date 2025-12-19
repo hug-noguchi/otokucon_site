@@ -37,8 +37,15 @@
     }
   }
 
+  .info dl dd a {
+    color: #da0029!important;
+  }
+
   .p-footer {
     padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 </style>
 
@@ -46,7 +53,7 @@
 <?php while (have_posts()) : the_post(); ?>
 
 <?php
-  $page_id = get_page_by_path('privacy-policy');
+  $page_id = get_page_by_path('info');
   $page = get_post( $page_id );
     echo $page -> post_content;
 ?>
