@@ -276,7 +276,7 @@
                 <div class="p-wedding__item p-wedding-card">
                     <div class=" js_modalBtnCont" data-modal-btn="modal03">
                         <a class="p-wedding-card__ribon">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wedding-img03.jpg" alt="ベルクラシック神戸">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/kobe01.jpg" alt="ベルクラシック神戸">
                         </a>
                         <div class="p-wedding-card__body">
                             <h3 class="p-wedding-card__title">ベルクラシック神戸</h3>
@@ -291,7 +291,7 @@
                             <div class="p-wedding-card__content">
                                 <div class="swiper">
                                     <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
+                                        <div class="swiper-slide">
                                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/kobe01.jpg" alt="ベルクラシック神戸">
                                         </div>
                                         <div class="swiper-slide">
