@@ -186,10 +186,10 @@
                 <div class="p-wedding__item p-wedding-card">
                     <div class="js_modalBtnCont" data-modal-btn="modal01">
                         <a class="p-wedding-card__ribon">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/muroran01.jpg" alt="アール・ベル・アンジェ室蘭">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/muroran01.jpg" alt="アールベルアンジェ室蘭">
                         </a>
                         <div class="p-wedding-card__body">
-                            <h3 class="p-wedding-card__title">アール・ベル・アンジェ室蘭</h3>
+                            <h3 class="p-wedding-card__title">アールベルアンジェ室蘭</h3>
                             <div class="p-wedding-card__btn js_modalBtnCont" data-modal-btn="modal01">詳しくはこちら</div>
                         </div>
                     </div>
@@ -202,20 +202,20 @@
                                 <div class="swiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/muroran01.jpg" alt="アール・ベル・アンジェ室蘭">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/muroran01.jpg" alt="アールベルアンジェ室蘭">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/muroran02.jpg" alt="アール・ベル・アンジェ室蘭">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/muroran02.jpg" alt="アールベルアンジェ室蘭">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/muroran03.jpg" alt="アール・ベル・アンジェ室蘭">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/muroran03.jpg" alt="アールベルアンジェ室蘭">
                                         </div>
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
                                 <div class="p-wedding-card__block">
                                     <div class="p-wedding-card__modalbody">
-                                        <h3 class="p-wedding-card__modaltitle">アール・ベル・アンジェ室蘭</h3>
+                                        <h3 class="p-wedding-card__modaltitle">アールベルアンジェ室蘭</h3>
                                         <p class="p-wedding-card__modaltext">
                                             (収容人数：10～180名)<br>
                                             開放的なプール付きガーデンも備えるオシャレな一軒家が、ウエディング当日はおふたりとゲストの貸し切りに。感動的なセレモニーとなる【セイント・ニコラス教会】は収容人数104名。

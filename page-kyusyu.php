@@ -225,10 +225,10 @@
                 <div class="p-wedding__item p-wedding-card">
                     <div class="js_modalBtnCont" data-modal-btn="modal03">
                         <a class="p-wedding-card__ribon">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamaguchi01.jpg" alt="アール・ベル・アンジェ山口">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamaguchi01.jpg" alt="アールベルアンジェ山口">
                         </a>
                         <div class="p-wedding-card__body">
-                            <h3 class="p-wedding-card__title">アール・ベル・アンジェ山口</h3>
+                            <h3 class="p-wedding-card__title">アールベルアンジェ山口</h3>
                             <div class="p-wedding-card__btn">詳しくはこちら</div>
                         </div>
                     </div>
@@ -241,20 +241,20 @@
                                 <div class="swiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamaguchi01.jpg" alt="アール・ベル・アンジェ山口">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamaguchi01.jpg" alt="アールベルアンジェ山口">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamaguchi02.jpg" alt="アール・ベル・アンジェ山口">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamaguchi02.jpg" alt="アールベルアンジェ山口">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamaguchi03.jpg" alt="アール・ベル・アンジェ山口">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamaguchi03.jpg" alt="アールベルアンジェ山口">
                                         </div>
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
                                 <div class="p-wedding-card__block">
                                     <div class="p-wedding-card__modalbody">
-                                        <h3 class="p-wedding-card__modaltitle">アール・ベル・アンジェ山口</h3>
+                                        <h3 class="p-wedding-card__modaltitle">アールベルアンジェ山口</h3>
                                         <p class="p-wedding-card__modaltext">
                                             (収容人数：10～120名)<br>
                                             小高い丘に建つアールベルアンジェ山口。チャペルや披露宴会場に差し込む自然の陽光がお二人の誓いの瞬間を感動的に演出します。遠方のゲスト様にも山口県ならではの美しい景色を。
