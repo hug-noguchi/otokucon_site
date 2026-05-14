@@ -235,7 +235,7 @@ function autoback_my_mail_front( $Mail_raw, $values, $Data ) {
 	} else if ($Data->get('radio-name') == 'アールベルアンジェ チャペル嵯峨野') {
 		$Mail_raw->to = 'ozaki@bellclassic.co.jp,sagano@bellclassic.co.jp,miura@bellco.co.jp';
 		$Mail_raw->cc = 'mayu@hershe.co.jp,ebisawa@hershe.co.jp,noguchi_ke@hershe.jp,kazama_yu@hershe.jp';
-	} else if ($Data->get('radio-name') == 'ベルクラシック空港') {
+	} else if ($Data->get('radio-name') == 'ル・リアン大阪') {
 		$Mail_raw->to = 't-kinoshita@bellclassic.co.jp,kuko@bellclassic.co.jp,miura@bellco.co.jp';
 		$Mail_raw->cc = 'mayu@hershe.co.jp,ebisawa@hershe.co.jp,noguchi_ke@hershe.jp,kazama_yu@hershe.jp';
 	} else if ($Data->get('radio-name') == 'アールベルアンジェ堺') {
@@ -276,7 +276,7 @@ function autoback_my_mail_common($Mail_raw, $values, $Data)
 	} else if ($Data->get('radio-name') == 'アールベルアンジェ チャペル嵯峨野') {
 		$Mail_raw->to = 'ozaki@bellclassic.co.jp,sagano@bellclassic.co.jp,miura@bellco.co.jp';
 		$Mail_raw->cc = 'mayu@hershe.co.jp,ebisawa@hershe.co.jp,noguchi_ke@hershe.jp,kazama_yu@hershe.jp';
-	} else if ($Data->get('radio-name') == 'ベルクラシック空港') {
+	} else if ($Data->get('radio-name') == 'ル・リアン大阪') {
 		$Mail_raw->to = 't-kinoshita@bellclassic.co.jp,kuko@bellclassic.co.jp,miura@bellco.co.jp';
 		$Mail_raw->cc = 'mayu@hershe.co.jp,ebisawa@hershe.co.jp,noguchi_ke@hershe.jp,kazama_yu@hershe.jp';
 	} else if ($Data->get('radio-name') == 'アールベルアンジェ堺') {

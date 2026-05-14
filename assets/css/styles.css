@@ -753,8 +753,14 @@ select::-ms-expand {
   background: -ms-linear-gradient(90deg, rgba(247, 138, 158, 0.99608) 0%, rgb(245, 111, 135) 50%, rgb(254, 152, 139) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(247, 138, 158, 0.99608)), color-stop(50%, rgb(245, 111, 135)), to(rgb(254, 152, 139)));
   background-image: linear-gradient(90deg, rgba(247, 138, 158, 0.99608) 0%, rgb(245, 111, 135) 50%, rgb(254, 152, 139) 100%);
-  -webkit-transition: opacity 0.2s, color 0.2s, border-color 0.2s;
-  transition: opacity 0.2s, color 0.2s, border-color 0.2s;
+  -webkit-transition:
+    opacity 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+  transition:
+    opacity 0.2s,
+    color 0.2s,
+    border-color 0.2s;
   border-radius: 1.25rem;
 }
 
@@ -955,8 +961,14 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .p-contact-confirm__inner .p-contact-button .p-contact-button__other .p-contact-button__submit {
     margin: 0;
-    -webkit-transition: opacity 0.2s, color 0.2s, border-color 0.2s;
-    transition: opacity 0.2s, color 0.2s, border-color 0.2s;
+    -webkit-transition:
+      opacity 0.2s,
+      color 0.2s,
+      border-color 0.2s;
+    transition:
+      opacity 0.2s,
+      color 0.2s,
+      border-color 0.2s;
   }
 }
 
@@ -1869,7 +1881,9 @@ select::-ms-expand {
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s;
+  transition:
+    transform 0.2s,
+    -webkit-transform 0.2s;
 }
 
 .p-qa-media__inner.is-active .p-qa-media__head .p-qa-media__btn::after {
@@ -2581,8 +2595,14 @@ select::-ms-expand {
   padding: 0.1875rem 0.5rem;
   background-color: #d66e9c;
   border: 1px solid transparent;
-  -webkit-transition: background-color 0.2s, color 0.2s, border-color 0.2s;
-  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  -webkit-transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
 }
 
 .p-wedding-card__btn:hover {
@@ -2601,8 +2621,14 @@ select::-ms-expand {
   padding: 0.1875rem 0.5rem;
   background-color: #1b96b0;
   border: 1px solid transparent;
-  -webkit-transition: background-color 0.2s, color 0.2s, border-color 0.2s;
-  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  -webkit-transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
 }
 
 .p-wedding-card__btn--family:hover {
@@ -2784,6 +2810,11 @@ select::-ms-expand {
   }
 }
 
+.p-wedding-card__modaltext.modal-lelien {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
 .p-wedding-card__modalForm {
   position: relative;
   z-index: 0;
@@ -2813,8 +2844,14 @@ select::-ms-expand {
   background: -ms-linear-gradient(90deg, rgba(247, 138, 158, 0.99608) 0%, rgb(245, 111, 135) 50%, rgb(254, 152, 139) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(247, 138, 158, 0.99608)), color-stop(50%, rgb(245, 111, 135)), to(rgb(254, 152, 139)));
   background-image: linear-gradient(90deg, rgba(247, 138, 158, 0.99608) 0%, rgb(245, 111, 135) 50%, rgb(254, 152, 139) 100%);
-  -webkit-transition: opacity 0.2s, color 0.2s, border-color 0.2s;
-  transition: opacity 0.2s, color 0.2s, border-color 0.2s;
+  -webkit-transition:
+    opacity 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+  transition:
+    opacity 0.2s,
+    color 0.2s,
+    border-color 0.2s;
 }
 
 .p-wedding-card__modalForm::after {
@@ -2866,8 +2903,14 @@ select::-ms-expand {
   height: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(rgb(3, 119, 183)), color-stop(77%, rgb(11, 224, 166)), to(rgb(41, 241, 156)));
   background: linear-gradient(0deg, rgb(3, 119, 183) 0%, rgb(11, 224, 166) 77%, rgb(41, 241, 156) 100%);
-  -webkit-transition: opacity 0.2s, color 0.2s, border-color 0.2s;
-  transition: opacity 0.2s, color 0.2s, border-color 0.2s;
+  -webkit-transition:
+    opacity 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+  transition:
+    opacity 0.2s,
+    color 0.2s,
+    border-color 0.2s;
 }
 
 .p-wedding-card__modalForm.p-wedding-card__modalForm--family::after {

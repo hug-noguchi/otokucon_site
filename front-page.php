@@ -499,10 +499,10 @@
                 <div class="p-wedding__item p-wedding-card">
                     <div class=" js_modalBtnCont" data-modal-btn="modal09">
                         <a class="p-wedding-card__ribon">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wedding-img08.jpg" alt="ベルクラシック空港">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wedding-img08.jpg" alt="ル・リアン大阪">
                         </a>
                         <div class="p-wedding-card__body">
-                            <h3 class="p-wedding-card__title">ベルクラシック空港</h3>
+                            <h3 class="p-wedding-card__title">ル・リアン大阪</h3>
                             <div class="p-wedding-card__btn">詳しくはこちら</div>
                         </div>
                     </div>
@@ -515,24 +515,34 @@
                                 <div class="swiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/kuko01.jpg" alt="ベルクラシック空港">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/kuko01.jpg" alt="ル・リアン大阪">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/kuko02.jpg" alt="ベルクラシック空港">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/kuko02.jpg" alt="ル・リアン大阪">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/kuko03.jpg" alt="ベルクラシック空港">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/kuko03.jpg" alt="ル・リアン大阪">
                                         </div>
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
                                 <div class="p-wedding-card__block">
                                     <div class="p-wedding-card__modalbody">
-                                        <h3 class="p-wedding-card__modaltitle">ベルクラシック空港</h3>
-                                        <p class="p-wedding-card__modaltext">
-                                            (収容人数：10～120名)<br>
-                                            あたたかみを感じるチャペルは、どんな天候でもお二人を最高の状態で見ていただける光に包まれた空間。アットホームにも盛大にも、個性豊かな会場でお二人らしいウエディングが叶います。
-                                        </p>
+                                        <h3 class="p-wedding-card__modaltitle">ル・リアン大阪</h3>
+                                        <ul class="p-wedding-card__modaltext modal-lelien">
+                                          <li>
+                                            ⚫︎選べる2つのチャペルと選べる3つのバンケット<br>
+                                            人数やご希望のスタイル お好みに合わせてセレクト可能でございます。
+                                          </li>
+                                          <li>
+                                            ⚫︎ル・リアン(当式場4F)はワンフロア貸切の会場でございます。<br>
+                                            ゲスト様の移動も簡潔で皆様だけの空間利用が実現。<br>
+                                            専門式場で叶えられる空間としてはかなり稀有な設計。
+                                          </li>
+                                          <li>
+                                            ⚫︎バス送迎サービスでゲスト様のアクセスもらくらくでございます。
+                                          </li>
+                                        </ul>
                                     </div>
                                     <div class="p-wedding-card__other">
                                         <a id="js-pare09" class="p-wedding-card__modalForm js-pagelink js-net09" href="#contact">この式場に応募する</a>
